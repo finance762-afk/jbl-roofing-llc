@@ -40,15 +40,10 @@
       <div class="footer-col">
         <h4>Services</h4>
         <ul>
-          <?php
-          $footerServices = array_slice($services, 0, 8);
-          foreach ($footerServices as $service):
-          ?>
-            <li><a href="/services/<?php echo htmlspecialchars($service['slug']); ?>/"><?php echo htmlspecialchars($service['name']); ?></a></li>
+          <?php foreach ($serviceGroups as $group): ?>
+            <li><a href="/services/<?php echo htmlspecialchars($group['slug']); ?>/"><?php echo htmlspecialchars($group['page']); ?></a></li>
           <?php endforeach; ?>
-          <?php if (count($services) > 8): ?>
-            <li><a href="/services/" style="font-weight: 600; color: var(--color-accent);">View All Services →</a></li>
-          <?php endif; ?>
+          <li><a href="/services/" style="font-weight: 600; color: var(--color-accent);">View All Services →</a></li>
         </ul>
       </div>
 

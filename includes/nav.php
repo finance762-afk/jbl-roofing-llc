@@ -16,8 +16,8 @@
         <div class="nav-dropdown">
           <a href="/services/" <?php echo (isset($currentPage) && $currentPage === 'services') ? 'aria-current="page"' : ''; ?>>Services</a>
           <div class="nav-dropdown-menu" role="menu" style="display:none">
-            <?php foreach ($services as $service): ?>
-              <a href="/services/<?php echo htmlspecialchars($service['slug']); ?>/" role="menuitem"><?php echo htmlspecialchars($service['name']); ?></a>
+            <?php foreach ($serviceGroups as $group): ?>
+              <a href="/services/<?php echo htmlspecialchars($group['slug']); ?>/" role="menuitem"><?php echo htmlspecialchars($group['page']); ?></a>
             <?php endforeach; ?>
           </div>
         </div>
@@ -57,8 +57,9 @@
     <div class="mobile-service-group">
       <span class="mobile-service-label">Services</span>
       <div class="mobile-service-links">
-        <?php foreach ($services as $service): ?>
-          <a href="/services/<?php echo htmlspecialchars($service['slug']); ?>/"><?php echo htmlspecialchars($service['name']); ?></a>
+        <a href="/services/">All Services</a>
+        <?php foreach ($serviceGroups as $group): ?>
+          <a href="/services/<?php echo htmlspecialchars($group['slug']); ?>/"><?php echo htmlspecialchars($group['page']); ?></a>
         <?php endforeach; ?>
       </div>
     </div>

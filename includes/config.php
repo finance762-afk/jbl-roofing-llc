@@ -307,4 +307,4 @@ $reviewRequestUrl = '';
 /* ---------------------------------------------------------------------------
  * CSS CACHE-BUST VERSION (increment when styles.css changes)
  * ------------------------------------------------------------------------- */
-$cssVersion = '1';
+$cssVersion = '2';
