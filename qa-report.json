@@ -7,15 +7,15 @@
   },
   "site": "jbl-roofing-llc",
   "expected_slug": "jbl-roofing-llc",
-  "passed": false,
-  "grade": "F",
-  "score_pct": 96,
+  "passed": true,
+  "grade": "A",
+  "score_pct": 97,
   "summary": {
     "total": 159,
-    "passed": 146,
-    "failed": 6,
+    "passed": 147,
+    "failed": 5,
     "warn": 7,
-    "blockers_failed": 1,
+    "blockers_failed": 0,
     "warnings_failed": 8
   },
   "techniques_detected": [
@@ -1240,9 +1240,9 @@
       "section": "SEO COMPLIANCE"
     },
     {
-      "status": "fail",
-      "check": "Multiple H1s",
-      "detail": "Found 2 H1 tags \u2014 must be exactly 1",
+      "status": "pass",
+      "check": "Single H1",
+      "detail": "",
       "file": "blog/signs-you-need-roof-replacement/index.php",
       "severity": "blocker",
       "expected": null,
@@ -1802,17 +1802,6 @@
     }
   ],
   "failures": [
-    {
-      "status": "fail",
-      "check": "Multiple H1s",
-      "detail": "Found 2 H1 tags \u2014 must be exactly 1",
-      "file": "blog/signs-you-need-roof-replacement/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
     {
       "status": "fail",
       "check": "Nav scroll transition",

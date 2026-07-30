@@ -19,8 +19,8 @@ foreach ($blogPosts as $p) {
 }
 
 if (!$post) {
-    header('HTTP/1.1 404 Not Found');
-    include $_SERVER['DOCUMENT_ROOT'] . '/404.php';
+    http_response_code(404);
+    header('Location: /404');
     exit;
 }
 
