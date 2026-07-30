@@ -1,0 +1,35 @@
+# robots.txt for JBL Roofing LLC
+# Allow all legitimate crawlers, including AI bots
+
+User-agent: *
+Allow: /
+
+# Disallow system directories and thank-you page
+Disallow: /includes/
+Disallow: /assets/js/
+Disallow: /thank-you
+
+# AI Crawlers (explicitly allowed)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemap
+Sitemap: https://jbl-roofing-llc.pageone.cloud/sitemap.xml

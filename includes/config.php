@@ -17,9 +17,9 @@ $ownerName   = '';                              // not provided in intake
 /* ---------------------------------------------------------------------------
  * CONTACT
  * ------------------------------------------------------------------------- */
-$phone          = '';                           // not provided in intake
+$phone          = '(479) 555-0123';             // placeholder - replace with actual
 $phoneSecondary = '';                           // not provided in intake
-$email          = '';                           // not provided in intake
+$email          = 'info@jblroofingllc.com';     // placeholder - replace with actual
 $acceptsSms     = false;
 $businessHours  = '24/7';
 

@@ -389,6 +389,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   position: relative;
   aspect-ratio: 5 / 3;
   overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
 }
 .service-card__image img {
   width: 100%;
