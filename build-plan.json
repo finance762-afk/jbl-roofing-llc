@@ -1,0 +1,622 @@
+{
+  "seo": {
+    "serp_context": null,
+    "target_radius": 100,
+    "primary_keyword": "roof repair fort smith ar",
+    "secondary_keywords": [
+      "roofing contractor fort smith ar",
+      "emergency roof repair fort smith ar",
+      "roof replacement fort smith ar",
+      "roofer near me",
+      "gutter cleaning fort smith ar",
+      "metal roofing fort smith ar",
+      "roof inspection fort smith ar",
+      "roof leak repair fort smith ar",
+      "emergency roofer near me",
+      "flat roofing contractor fort smith ar",
+      "storm damage roof repair fort smith ar",
+      "roof financing options fort smith ar"
+    ]
+  },
+  "tier": "premium",
+  "email": "",
+  "pages": [
+    {
+      "slug": "seasonal-services",
+      "type": "service_group",
+      "title": "Seasonal Services in Fort Smith, AR",
+      "sections": "hero, service_cards_grid, individual_service_details, process, cta",
+      "services": [
+        "Gutter Installation & Downspout Services",
+        "Metal Roofing Services",
+        "Roof Maintenance Services"
+      ],
+      "primary_keyword": "gutter installation & downspout services Fort Smith AR"
+    },
+    {
+      "slug": "roofing-services",
+      "type": "service_group",
+      "title": "Roofing Services in Fort Smith, AR",
+      "sections": "hero, service_cards_grid, individual_service_details, process, cta",
+      "services": [
+        "Gutter Cleaning & Maintenance",
+        "Roof Repair",
+        "Emergency Roof Repair (24/7)",
+        "Roof Replacement & Installation",
+        "Asphalt Shingle Roofing",
+        "Tile Roofing",
+        "Slate Roofing",
+        "Flat Roofing Systems",
+        "TPO Roofing",
+        "EPDM Roofing",
+        "Cedar Shake Roofing",
+        "Energy-Efficient Roofing",
+        "Residential Roof Inspection",
+        "Roof Damage Assessment",
+        "Roof Leak Repair",
+        "Roof Financing Options"
+      ],
+      "primary_keyword": "roof replacement & installation Fort Smith AR"
+    },
+    {
+      "slug": "siding-installation-repair",
+      "type": "service",
+      "title": "Siding Installation & Repair in Fort Smith, AR",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Siding Installation & Repair"
+      ],
+      "primary_keyword": "siding installation & repair Fort Smith AR"
+    },
+    {
+      "slug": "storm-damage-repair",
+      "type": "service",
+      "title": "Storm Damage Repair in Fort Smith, AR",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Storm Damage Repair"
+      ],
+      "primary_keyword": "storm damage repair Fort Smith AR"
+    },
+    {
+      "slug": "insurance-claim-assistance",
+      "type": "service",
+      "title": "Insurance Claim Assistance in Fort Smith, AR",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Insurance Claim Assistance"
+      ],
+      "primary_keyword": "insurance claim assistance Fort Smith AR"
+    }
+  ],
+  "phone": "",
+  "assets": {
+    "logo": {
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/logo/1785370857501-nxseph-Logo.png",
+      "storage_path": "jbl-roofing-llc/logo/1785370857501-nxseph-Logo.png"
+    },
+    "images": [
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/logo/1785370857501-nxseph-Logo.png",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "logo",
+        "storage_path": "jbl-roofing-llc/logo/1785370857501-nxseph-Logo.png",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/photos/1785371119407-ivl8mo-IMG_3492.jpeg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "jbl-roofing-llc/photos/1785371119407-ivl8mo-IMG_3492.jpeg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/photos/1785371124660-vir8wt-IMG_4572.jpeg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "jbl-roofing-llc/photos/1785371124660-vir8wt-IMG_4572.jpeg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/photos/1785371126320-k4kjaq-IMG_4587.jpeg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "jbl-roofing-llc/photos/1785371126320-k4kjaq-IMG_4587.jpeg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/photos/1785371127618-ndtvms-IMG_4588.jpeg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "jbl-roofing-llc/photos/1785371127618-ndtvms-IMG_4588.jpeg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/photos/1785371128999-7fb5tb-IMG_4591.jpeg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "jbl-roofing-llc/photos/1785371128999-7fb5tb-IMG_4591.jpeg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/photos/1785371130524-ymrb3k-IMG_2315.PNG",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "jbl-roofing-llc/photos/1785371130524-ymrb3k-IMG_2315.PNG",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/photos/1785371131896-afguij-IMG_2806.jpeg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "jbl-roofing-llc/photos/1785371131896-afguij-IMG_2806.jpeg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/photos/1785371133543-80u1r3-IMG_4564.jpeg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "jbl-roofing-llc/photos/1785371133543-80u1r3-IMG_4564.jpeg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/photos/1785371135054-yi0d8g-IMG_4571.jpeg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "jbl-roofing-llc/photos/1785371135054-yi0d8g-IMG_4571.jpeg",
+        "quality_score": null
+      }
+    ],
+    "page_allocations": null,
+    "recommended_hero_image": {
+      "alt": "",
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/logo/1785370857501-nxseph-Logo.png",
+      "context": "logo",
+      "quality_score": null
+    }
+  },
+  "design": {
+    "fonts": {},
+    "notes": "",
+    "style": "modern",
+    "colors": {
+      "accent": "#9E9F9F",
+      "primary": "#082512",
+      "secondary": "#5A9845",
+      "extracted_from_logo": true
+    },
+    "logo_analysis": {}
+  },
+  "domain": "jbl-roofing-llc",
+  "phases": [
+    {
+      "name": "scaffold",
+      "phase": 1,
+      "status": "pending"
+    },
+    {
+      "name": "nav_footer_head",
+      "phase": 2,
+      "status": "pending"
+    },
+    {
+      "name": "homepage",
+      "phase": 3,
+      "status": "pending"
+    },
+    {
+      "name": "inner_pages",
+      "phase": 4,
+      "status": "pending"
+    },
+    {
+      "name": "seo_aeo_deploy",
+      "phase": 5,
+      "status": "pending"
+    }
+  ],
+  "address": {
+    "zip": " 72903",
+    "city": "Fort Smith",
+    "state": "AR",
+    "street": "5022 S 33rd St"
+  },
+  "content": {
+    "usps": [],
+    "years": 1,
+    "insurance": "",
+    "description": "At JBL Roofing LLC, we believe in putting homeowners first. With over 20 years of combined roofing experience, our team understands what it takes to deliver quality work and earn your trust. Having spent years working for larger corporations, we decided to do things differently—building a company that prioritizes honest work, fair pricing, and genuine customer care over quick profits.\n\nWe're a small, locally-focused team dedicated to serving our communities in Arkansas, Oklahoma, and Missouri. Whether you need minor repairs or a complete roof replacement, we approach every project with the same level of integrity and attention to detail. Our commitment is simple: treat your home and family the way we'd want ours treated, delivering the quality and reliability you deserve at prices you can trust.",
+    "certifications": []
+  },
+  "reviews": [],
+  "tagline": "Built Tough. Built Right.",
+  "industry": "roofing",
+  "services": [
+    {
+      "name": "Gutter Installation & Downspout Services",
+      "keywords": [
+        "gutter installation Fort Smith AR",
+        "downspout services Fort Smith",
+        "seamless gutters Arkansas",
+        "professional gutter contractors"
+      ],
+      "description": "Professional gutter and downspout installation to protect your Fort Smith home from water damage and foundation issues. We install high-quality gutters designed to handle Arkansas weather."
+    },
+    {
+      "name": "Gutter Cleaning & Maintenance",
+      "keywords": [
+        "gutter cleaning Fort Smith AR",
+        "gutter maintenance services",
+        "residential gutter cleaning Arkansas",
+        "prevent gutter damage"
+      ],
+      "description": "Regular gutter cleaning and maintenance services to keep your drainage system functioning properly year-round. Prevent costly water damage with professional gutter care."
+    },
+    {
+      "name": "Siding Installation & Repair",
+      "keywords": [
+        "siding installation Fort Smith",
+        "siding repair Arkansas",
+        "residential siding contractor",
+        "home siding services"
+      ],
+      "description": "Quality siding installation and repair services to enhance your home's curb appeal and weatherproofing. Improve energy efficiency and protect your home's exterior."
+    },
+    {
+      "name": "Roof Repair",
+      "keywords": [
+        "roof repair Fort Smith AR",
+        "affordable roof repair",
+        "professional roofers Arkansas",
+        "residential roof repair"
+      ],
+      "description": "Expert roof repair services for all types of roofing materials and damage. Our certified contractors provide affordable, prompt repairs to extend your roof's lifespan."
+    },
+    {
+      "name": "Emergency Roof Repair (24/7)",
+      "keywords": [
+        "emergency roof repair Fort Smith",
+        "24/7 roofing services Arkansas",
+        "emergency roofers near me",
+        "same-day roof repair"
+      ],
+      "description": "24/7 emergency roofing services available for storm damage, leaks, and urgent repairs. Same-day service to protect your Fort Smith home when you need it most."
+    },
+    {
+      "name": "Roof Replacement & Installation",
+      "keywords": [
+        "roof replacement Fort Smith AR",
+        "new roof installation",
+        "complete roof replacement Arkansas",
+        "residential roof installation"
+      ],
+      "description": "Complete roof replacement and new installation services for residential properties. Professional installation ensures durability and proper protection for your Fort Smith home."
+    },
+    {
+      "name": "Asphalt Shingle Roofing",
+      "keywords": [
+        "asphalt shingle roofing Fort Smith",
+        "shingle roof installation Arkansas",
+        "asphalt roof replacement",
+        "shingle contractors"
+      ],
+      "description": "Affordable and durable asphalt shingle roofing solutions for homes in Fort Smith. We specialize in asphalt shingle installation and replacement."
+    },
+    {
+      "name": "Metal Roofing Services",
+      "keywords": [
+        "metal roofing Fort Smith AR",
+        "metal roof installation Arkansas",
+        "standing seam metal roofing",
+        "durable metal roof contractor"
+      ],
+      "description": "Energy-efficient metal roofing installation and repair for residential properties. Metal roofs offer superior durability and long-term savings for Arkansas homeowners."
+    },
+    {
+      "name": "Tile Roofing",
+      "keywords": [
+        "tile roofing Fort Smith AR",
+        "tile roof installation Arkansas",
+        "clay tile roofing contractor",
+        "tile roof repair"
+      ],
+      "description": "Professional tile roof installation and repair services for upscale residential properties. Tile roofing combines aesthetic appeal with exceptional durability."
+    },
+    {
+      "name": "Slate Roofing",
+      "keywords": [
+        "slate roofing Fort Smith AR",
+        "slate roof installation Arkansas",
+        "premium slate roofers",
+        "slate roof contractor"
+      ],
+      "description": "Premium slate roofing installation for homes seeking durability and elegant aesthetics. Slate offers exceptional longevity and weather resistance."
+    },
+    {
+      "name": "Flat Roofing Systems",
+      "keywords": [
+        "flat roofing Fort Smith AR",
+        "flat roof installation Arkansas",
+        "TPO roofing contractor",
+        "commercial roof systems"
+      ],
+      "description": "Expert installation and repair of flat roofing systems including TPO, EPDM, and modified bitumen. Ideal for commercial and residential properties in Fort Smith."
+    },
+    {
+      "name": "TPO Roofing",
+      "keywords": [
+        "TPO roofing Fort Smith",
+        "TPO roof installation Arkansas",
+        "energy-efficient TPO roofing",
+        "TPO membrane contractor"
+      ],
+      "description": "Thermoplastic polyolefin (TPO) roofing installation for energy-efficient protection. TPO systems are cost-effective and weather-resistant for Arkansas properties."
+    },
+    {
+      "name": "EPDM Roofing",
+      "keywords": [
+        "EPDM roofing Fort Smith AR",
+        "rubber roofing Arkansas",
+        "EPDM roof installation",
+        "rubber membrane roofer"
+      ],
+      "description": "EPDM rubber roofing installation and repair for durable, weather-resistant coverage. Long-lasting EPDM systems protect your investment."
+    },
+    {
+      "name": "Cedar Shake Roofing",
+      "keywords": [
+        "cedar shake roofing Fort Smith",
+        "wood shake roof Arkansas",
+        "cedar roof installation",
+        "traditional shake roofing"
+      ],
+      "description": "Authentic cedar shake roofing for homes valuing natural beauty and traditional charm. We install and maintain cedar shake roofs for lasting appeal."
+    },
+    {
+      "name": "Energy-Efficient Roofing",
+      "keywords": [
+        "energy-efficient roofing Fort Smith",
+        "cool roof installation Arkansas",
+        "energy saving roofing",
+        "reduced energy cost roofing"
+      ],
+      "description": "Energy-efficient roofing solutions designed to reduce cooling costs and improve home comfort. Save money while protecting your Fort Smith home."
+    },
+    {
+      "name": "Residential Roof Inspection",
+      "keywords": [
+        "roof inspection Fort Smith AR",
+        "professional roof inspector Arkansas",
+        "residential roof assessment",
+        "home roof inspection"
+      ],
+      "description": "Professional roof inspection services to assess your roof's condition and identify potential issues. Early detection prevents costly water damage."
+    },
+    {
+      "name": "Roof Damage Assessment",
+      "keywords": [
+        "roof damage assessment Fort Smith",
+        "insurance claim roofing Arkansas",
+        "damage inspection contractor",
+        "hail damage assessment"
+      ],
+      "description": "Comprehensive roof damage assessment and insurance claim documentation for storm-damaged properties. We help you maximize your coverage."
+    },
+    {
+      "name": "Roof Maintenance Services",
+      "keywords": [
+        "roof maintenance Fort Smith AR",
+        "roofing maintenance services Arkansas",
+        "preventive roof care",
+        "roof maintenance contractor"
+      ],
+      "description": "Regular roof maintenance to extend the lifespan and performance of your roofing system. Preventive care protects your investment."
+    },
+    {
+      "name": "Storm Damage Repair",
+      "keywords": [
+        "storm damage repair Fort Smith",
+        "severe weather roof damage Arkansas",
+        "wind damage roofing",
+        "storm roof repair contractor"
+      ],
+      "description": "Expert repair services for storm-damaged roofs in Fort Smith. We handle wind, hail, and water damage with insurance claim assistance."
+    },
+    {
+      "name": "Roof Leak Repair",
+      "keywords": [
+        "roof leak repair Fort Smith AR",
+        "leak detection Arkansas",
+        "water leak roofing",
+        "emergency leak repair contractor"
+      ],
+      "description": "Professional leak detection and repair to stop water intrusion and prevent interior damage. Fast, reliable leak repair services."
+    },
+    {
+      "name": "Insurance Claim Assistance",
+      "keywords": [
+        "insurance claim assistance Fort Smith",
+        "roof insurance claim Arkansas",
+        "claim support roofer",
+        "insurance documentation"
+      ],
+      "description": "Expert guidance and documentation support for roofing insurance claims in Fort Smith. We help maximize your claim settlement."
+    },
+    {
+      "name": "Roof Financing Options",
+      "keywords": [
+        "roof financing Fort Smith AR",
+        "roof payment plans Arkansas",
+        "affordable roofing financing",
+        "roof financing options"
+      ],
+      "description": "Flexible financing plans make roof repairs and replacements affordable for Fort Smith homeowners. Low-interest options available."
+    }
+  ],
+  "owner_name": "",
+  "client_slug": "jbl-roofing-llc",
+  "form_action": "https://formsubmit.co/CustomerService@pageoneinsights.com",
+  "github_repo": "",
+  "web_sources": [],
+  "company_name": "jbl-roofing-llc",
+  "integrations": {
+    "geo": {
+      "lat": 35.3349866,
+      "lng": -94.39839049999999
+    },
+    "bbb_url": null,
+    "financing": null,
+    "accepts_sms": false,
+    "gbp_place_id": null,
+    "gbp_map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3894.7797516843875!2d-94.39839049999999!3d35.3349866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ca4d2f6a9ba169%3A0xef78e44ea423a7d2!2sJBL%20ROOFING!5e1!3m2!1sen!2sph!4v1785371509127!5m2!1sen!2sph\" loading=\"lazy\" allowfullscreen referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "directions_url": null,
+    "elfsight_embed": null,
+    "scheduling_url": null,
+    "review_request_url": null,
+    "certification_links": []
+  },
+  "service_areas": [
+    {
+      "zip": "72903",
+      "city": "",
+      "state": "AR",
+      "primary": true
+    }
+  ],
+  "business_hours": "24/7",
+  "image_curation": null,
+  "research_brief": {
+    "gbp": null,
+    "brief": {
+      "faqs": [
+        {
+          "a": "Costs range from $8,000–$18,000 depending on size, materials, and roof complexity. We provide free inspections and detailed estimates with no obligation to decide.",
+          "q": "How much does a roof replacement cost in Fort Smith?"
+        },
+        {
+          "a": "Most policies cover hail and wind damage. We document damage, work directly with adjusters, and handle the process so you don't have to—ask about our insurance claim assistance.",
+          "q": "Does homeowners insurance cover roof damage?"
+        },
+        {
+          "a": "Most residential roofs are completed in 1–3 days. We work efficiently, protect your property, and leave everything clean—no surprise timeline extensions.",
+          "q": "How long does a roof replacement take?"
+        },
+        {
+          "a": "Asphalt shingles are affordable and proven in our climate. Metal roofing resists hail and wind better. We recommend based on your budget, home style, and exposure to Fort Smith's severe weather.",
+          "q": "What's the best roofing material for Arkansas weather?"
+        },
+        {
+          "a": "Annual inspections catch problems early and extend roof life. After storms, inspections are critical—especially hail events common to our area. We offer free post-storm assessments.",
+          "q": "How often should I get my roof inspected?"
+        }
+      ],
+      "about_angle": "Local family-owned roofers who've protected Fort Smith homes for years—we understand our climate, respect our community, and stand behind every single job we do",
+      "hero_headline": "Fort Smith's Most Trusted Roofing Company",
+      "differentiators": [
+        "Local Fort Smith expertise with deep knowledge of regional weather patterns, building codes, and common roofing challenges",
+        "Rapid response capability for storm damage and emergency repairs—critical in Arkansas's hail and wind seasons",
+        "Direct insurance claim assistance and documentation services, streamlining the damage claim process",
+        "Strong material and workmanship warranty with proven track record of customer retention",
+        "Licensed, insured, and bonded with transparent pricing and free no-pressure inspections"
+      ],
+      "hero_subheadline": "Expert repairs, replacements, and storm damage restoration you can count on",
+      "tone_recommendation": "Confident and authoritative yet warm and approachable—speak as experienced local problem-solvers who understand Fort Smith's specific needs. Emphasize reliability, transparency, and neighborhood trust over corporate polish. Avoid jargon; explain roofing clearly."
+    },
+    "competitors": [],
+    "generated_at": "2026-07-30T00:33:45.311Z",
+    "existing_site": null
+  },
+  "competitor_urls": [],
+  "phone_secondary": "",
+  "service_grouping": {
+    "cap": 16,
+    "tier": "premium",
+    "groups": [
+      {
+        "page": "Seasonal Services",
+        "services": [
+          "Gutter Installation & Downspout Services",
+          "Metal Roofing Services",
+          "Roof Maintenance Services"
+        ]
+      },
+      {
+        "page": "Roofing Services",
+        "services": [
+          "Gutter Cleaning & Maintenance",
+          "Roof Repair",
+          "Emergency Roof Repair (24/7)",
+          "Roof Replacement & Installation",
+          "Asphalt Shingle Roofing",
+          "Tile Roofing",
+          "Slate Roofing",
+          "Flat Roofing Systems",
+          "TPO Roofing",
+          "EPDM Roofing",
+          "Cedar Shake Roofing",
+          "Energy-Efficient Roofing",
+          "Residential Roof Inspection",
+          "Roof Damage Assessment",
+          "Roof Leak Repair",
+          "Roof Financing Options"
+        ]
+      },
+      {
+        "page": "Siding Installation & Repair",
+        "solo": true,
+        "services": [
+          "Siding Installation & Repair"
+        ]
+      },
+      {
+        "page": "Storm Damage Repair",
+        "solo": true,
+        "services": [
+          "Storm Damage Repair"
+        ]
+      },
+      {
+        "page": "Insurance Claim Assistance",
+        "solo": true,
+        "services": [
+          "Insurance Claim Assistance"
+        ]
+      }
+    ],
+    "grouped_count": 5,
+    "original_count": 22
+  },
+  "lead_notification_email": "",
+  "lead_notification_phone": "",
+  "google_business_profile_url": ""
+}
