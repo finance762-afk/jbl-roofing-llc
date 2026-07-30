@@ -9,13 +9,13 @@
   "expected_slug": "jbl-roofing-llc",
   "passed": false,
   "grade": "F",
-  "score_pct": 92,
+  "score_pct": 96,
   "summary": {
-    "total": 150,
-    "passed": 132,
-    "failed": 10,
-    "warn": 8,
-    "blockers_failed": 5,
+    "total": 159,
+    "passed": 146,
+    "failed": 6,
+    "warn": 7,
+    "blockers_failed": 1,
     "warnings_failed": 8
   },
   "techniques_detected": [
@@ -27,6 +27,11 @@
     {
       "name": "keyframe_animation",
       "description": "Custom keyframe animations",
+      "matches": 1
+    },
+    {
+      "name": "clip_path_shape",
+      "description": "Clip-path shapes beyond simple rects",
       "matches": 1
     },
     {
@@ -212,14 +217,14 @@
       "section": "FILE STRUCTURE"
     },
     {
-      "status": "fail",
+      "status": "pass",
       "check": "AEO file: llms-full.txt",
-      "detail": "Missing \u2014 required for AEO",
+      "detail": "",
       "file": "",
       "severity": "blocker",
       "expected": null,
       "actual": null,
-      "fix_hint": "Create llms-full.txt per references/seo-aeo-2026.md",
+      "fix_hint": "",
       "section": "FILE STRUCTURE"
     },
     {
@@ -247,11 +252,11 @@
     {
       "status": "pass",
       "check": "Inline <style> block",
-      "detail": "445 CSS lines in 1 block(s)",
+      "detail": "446 CSS lines in 1 block(s)",
       "file": "index.php",
       "severity": "blocker",
       "expected": null,
-      "actual": "445",
+      "actual": "446",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
@@ -348,6 +353,17 @@
       "check": "External stylesheet",
       "detail": "Linked to 1 external CSS file(s), 490 lines total",
       "file": "accessibility/index.php",
+      "severity": "blocker",
+      "expected": null,
+      "actual": "490",
+      "fix_hint": "",
+      "section": "PHP STANDARDS"
+    },
+    {
+      "status": "pass",
+      "check": "External stylesheet",
+      "detail": "Linked to 1 external CSS file(s), 490 lines total",
+      "file": "blog/index.php",
       "severity": "blocker",
       "expected": null,
       "actual": "490",
@@ -466,12 +482,23 @@
     },
     {
       "status": "pass",
+      "check": "External stylesheet",
+      "detail": "Linked to 1 external CSS file(s), 490 lines total",
+      "file": "blog/signs-you-need-roof-replacement/index.php",
+      "severity": "blocker",
+      "expected": null,
+      "actual": "490",
+      "fix_hint": "",
+      "section": "PHP STANDARDS"
+    },
+    {
+      "status": "pass",
       "check": "Premium tier CSS bar",
-      "detail": "935 lines (445 inline + 490 external, need \u2265400)",
+      "detail": "936 lines (446 inline + 490 external, need \u2265400)",
       "file": "index.php",
       "severity": "blocker",
       "expected": "400",
-      "actual": "935",
+      "actual": "936",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
@@ -509,14 +536,14 @@
       "section": "PHP STANDARDS"
     },
     {
-      "status": "fail",
+      "status": "pass",
       "check": "Premium tier techniques",
-      "detail": "Only 5 techniques detected; tier requires \u22656",
+      "detail": "6 distinct techniques detected (need \u22656)",
       "file": "",
       "severity": "blocker",
       "expected": "6",
-      "actual": "5",
-      "fix_hint": "Add techniques from references/design-system.md. Detected so far: backdrop_filter, keyframe_animation, mix_blend_mode, complex_filter, text_wrap_balance",
+      "actual": "6",
+      "fix_hint": "",
       "section": "PHP STANDARDS"
     },
     {
@@ -853,6 +880,39 @@
       "status": "pass",
       "check": "Single H1",
       "detail": "",
+      "file": "blog/index.php",
+      "severity": "blocker",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "SEO COMPLIANCE"
+    },
+    {
+      "status": "pass",
+      "check": "JSON-LD schema",
+      "detail": "",
+      "file": "blog/index.php",
+      "severity": "blocker",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "SEO COMPLIANCE"
+    },
+    {
+      "status": "pass",
+      "check": "Canonical tag",
+      "detail": "",
+      "file": "blog/index.php",
+      "severity": "blocker",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "SEO COMPLIANCE"
+    },
+    {
+      "status": "pass",
+      "check": "Single H1",
+      "detail": "",
       "file": "services/siding-installation-repair/index.php",
       "severity": "blocker",
       "expected": null,
@@ -1173,6 +1233,39 @@
       "check": "Canonical tag",
       "detail": "",
       "file": "areas/barling/index.php",
+      "severity": "blocker",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "SEO COMPLIANCE"
+    },
+    {
+      "status": "fail",
+      "check": "Multiple H1s",
+      "detail": "Found 2 H1 tags \u2014 must be exactly 1",
+      "file": "blog/signs-you-need-roof-replacement/index.php",
+      "severity": "blocker",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "SEO COMPLIANCE"
+    },
+    {
+      "status": "pass",
+      "check": "JSON-LD schema",
+      "detail": "",
+      "file": "blog/signs-you-need-roof-replacement/index.php",
+      "severity": "blocker",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "SEO COMPLIANCE"
+    },
+    {
+      "status": "pass",
+      "check": "Canonical tag",
+      "detail": "",
+      "file": "blog/signs-you-need-roof-replacement/index.php",
       "severity": "blocker",
       "expected": null,
       "actual": null,
@@ -1194,6 +1287,17 @@
       "status": "pass",
       "check": "llms.txt content",
       "detail": "102 lines",
+      "file": "",
+      "severity": "warning",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "AEO COMPLIANCE"
+    },
+    {
+      "status": "pass",
+      "check": "llms-full.txt content",
+      "detail": "435 lines",
       "file": "",
       "severity": "warning",
       "expected": null,
@@ -1367,9 +1471,9 @@
       "section": "FOOTER & CONVERSION"
     },
     {
-      "status": "fail",
-      "check": "Footer NAP",
-      "detail": "Missing: phone",
+      "status": "pass",
+      "check": "Footer NAP (name/address/phone)",
+      "detail": "",
       "file": "",
       "severity": "blocker",
       "expected": null,
@@ -1400,20 +1504,20 @@
       "section": "FOOTER & CONVERSION"
     },
     {
-      "status": "fail",
-      "check": "Premium: blog/ directory",
-      "detail": "Premium tier requires blog/ directory",
+      "status": "pass",
+      "check": "Premium: blog posts",
+      "detail": "1 post(s)",
       "file": "",
       "severity": "blocker",
       "expected": null,
       "actual": null,
-      "fix_hint": "Create blog/index.php and at least one post",
+      "fix_hint": "",
       "section": "PREMIUM TIER EXTRAS"
     },
     {
       "status": "pass",
       "check": "Content H2 question ratio",
-      "detail": "61/81 content H2s are questions (75%; 2 CTA/label H2s exempt)",
+      "detail": "63/91 content H2s are questions (69%; 2 CTA/label H2s exempt)",
       "file": "",
       "severity": "blocker",
       "expected": null,
@@ -1424,7 +1528,7 @@
     {
       "status": "warn",
       "check": "Pages below 40% question-H2",
-      "detail": "6 page(s) under target: contact.php, about.php, areas/van-buren/index.php, areas/greenwood/index.php, areas/alma/index.php",
+      "detail": "7 page(s) under target: contact.php, blog/signs-you-need-roof-replacement/index.php, about.php, areas/van-buren/index.php, areas/greenwood/index.php",
       "file": "",
       "severity": "warning",
       "expected": null,
@@ -1455,9 +1559,9 @@
       "section": "AEO CRAWLABILITY"
     },
     {
-      "status": "warn",
+      "status": "pass",
       "check": "NAP consistency",
-      "detail": "Cannot extract phone from config.php",
+      "detail": "",
       "file": "",
       "severity": "blocker",
       "expected": null,
@@ -1466,14 +1570,14 @@
       "section": "AEO ENTITY"
     },
     {
-      "status": "fail",
+      "status": "pass",
       "check": "No placeholder/scaffold data",
-      "detail": "build-plan.json phone is empty; build-plan.json email is empty",
+      "detail": "",
       "file": "",
       "severity": "blocker",
       "expected": null,
       "actual": null,
-      "fix_hint": "Populate includes/config.php (and build-plan.json) with the real client NAP + service areas from intake; never ship scaffold defaults.",
+      "fix_hint": "",
       "section": "DATA INTEGRITY"
     },
     {
@@ -1700,25 +1804,14 @@
   "failures": [
     {
       "status": "fail",
-      "check": "AEO file: llms-full.txt",
-      "detail": "Missing \u2014 required for AEO",
-      "file": "",
+      "check": "Multiple H1s",
+      "detail": "Found 2 H1 tags \u2014 must be exactly 1",
+      "file": "blog/signs-you-need-roof-replacement/index.php",
       "severity": "blocker",
       "expected": null,
       "actual": null,
-      "fix_hint": "Create llms-full.txt per references/seo-aeo-2026.md",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "fail",
-      "check": "Premium tier techniques",
-      "detail": "Only 5 techniques detected; tier requires \u22656",
-      "file": "",
-      "severity": "blocker",
-      "expected": "6",
-      "actual": "5",
-      "fix_hint": "Add techniques from references/design-system.md. Detected so far: backdrop_filter, keyframe_animation, mix_blend_mode, complex_filter, text_wrap_balance",
-      "section": "PHP STANDARDS"
+      "fix_hint": "",
+      "section": "SEO COMPLIANCE"
     },
     {
       "status": "fail",
@@ -1730,39 +1823,6 @@
       "actual": null,
       "fix_hint": "",
       "section": "NAVIGATION & LAYOUT"
-    },
-    {
-      "status": "fail",
-      "check": "Footer NAP",
-      "detail": "Missing: phone",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FOOTER & CONVERSION"
-    },
-    {
-      "status": "fail",
-      "check": "Premium: blog/ directory",
-      "detail": "Premium tier requires blog/ directory",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Create blog/index.php and at least one post",
-      "section": "PREMIUM TIER EXTRAS"
-    },
-    {
-      "status": "fail",
-      "check": "No placeholder/scaffold data",
-      "detail": "build-plan.json phone is empty; build-plan.json email is empty",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Populate includes/config.php (and build-plan.json) with the real client NAP + service areas from intake; never ship scaffold defaults.",
-      "section": "DATA INTEGRITY"
     },
     {
       "status": "fail",
@@ -1846,24 +1906,13 @@
     {
       "status": "warn",
       "check": "Pages below 40% question-H2",
-      "detail": "6 page(s) under target: contact.php, about.php, areas/van-buren/index.php, areas/greenwood/index.php, areas/alma/index.php",
+      "detail": "7 page(s) under target: contact.php, blog/signs-you-need-roof-replacement/index.php, about.php, areas/van-buren/index.php, areas/greenwood/index.php",
       "file": "",
       "severity": "warning",
       "expected": null,
       "actual": null,
       "fix_hint": "Rephrase content H2s as questions per seo-aeo-2026.md Part C",
       "section": "AEO CONTENT"
-    },
-    {
-      "status": "warn",
-      "check": "NAP consistency",
-      "detail": "Cannot extract phone from config.php",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "AEO ENTITY"
     },
     {
       "status": "warn",

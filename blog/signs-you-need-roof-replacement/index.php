@@ -57,6 +57,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
            alt="<?php echo htmlspecialchars($post['alt']); ?>"
            loading="eager" fetchpriority="high"
            width="1600" height="900"
+           srcset="<?php echo htmlspecialchars($post['image']); ?> 1600w"
+           sizes="(max-width: 768px) 100vw, 800px"
            style="width: 100%; height: auto; border-radius: var(--radius-lg);">
     </div>
 
@@ -90,7 +92,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <p>If you notice any of these signs, contact JBL Roofing LLC for a free inspection. We'll assess your roof honestly, recommend repair when possible, and provide a detailed replacement estimate when necessary. Don't wait until a small problem becomes a costly emergency.</p>
 
       <div style="background: var(--color-bg-alt); padding: var(--space-8); border-radius: var(--radius-lg); border-left: 4px solid var(--color-secondary); margin-top: var(--space-12);">
-        <h3 style="margin-bottom: var(--space-4);">Need a Roof Inspection?</h3>
+        <p style="font-weight: 700; font-size: var(--font-size-lg); margin-bottom: var(--space-4);">Need a Roof Inspection?</p>
         <p>JBL Roofing LLC offers free, no-obligation roof inspections in Fort Smith and surrounding areas. We'll give you an honest assessment and clear recommendations.</p>
         <?php if (!empty($phone)): ?>
           <a href="tel:<?php echo htmlspecialchars($phone); ?>" class="btn-primary" style="margin-top: var(--space-4); display: inline-block;">

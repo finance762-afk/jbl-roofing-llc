@@ -1,3 +1,6 @@
+<!-- Skip to Content Link (Accessibility — REQUIRED) -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
 <header class="site-header" data-header>
   <div class="container">
     <div class="header-inner">
