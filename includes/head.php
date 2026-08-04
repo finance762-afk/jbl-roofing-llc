@@ -29,7 +29,6 @@
   <link rel="stylesheet" href="/assets/css/framework.css?v=<?php echo $cssVersion ?? '1'; ?>">
 
   <!-- DNS Prefetch for External Resources -->
-  <link rel="dns-prefetch" href="https://i.imgur.com">
   <link rel="dns-prefetch" href="https://db.pageone.cloud">
 
   <?php if (isset($heroImagePreload) && $heroImagePreload): ?>
