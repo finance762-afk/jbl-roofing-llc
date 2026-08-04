@@ -95,6 +95,7 @@
   <!-- No Index (Thank You Page, etc.) -->
   <meta name="robots" content="noindex, follow">
   <?php endif; ?>
+<?php require_once __DIR__ . '/edit-mode.php'; ?>
 </head>
 <body>
   <!-- Skip to Content Link (Accessibility) -->
