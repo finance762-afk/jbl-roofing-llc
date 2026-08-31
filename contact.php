@@ -409,9 +409,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
               <input type="checkbox" name="terms_accepted" value="yes" required>
               <span>
                 I have read and agree to the
-                <a href="/privacy-policy/">Privacy Policy</a>
+                <a href="/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a>
                 and
-                <a href="/terms/">Terms of Service</a>. <span style="color: var(--color-secondary);">*</span>
+                <a href="/terms/" target="_blank" rel="noopener">Terms of Service</a>. <span style="color: var(--color-secondary);">*</span>
               </span>
             </label>
 
