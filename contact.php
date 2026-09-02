@@ -12,7 +12,11 @@ $pageTitle       = 'Contact JBL Roofing LLC | Fort Smith, AR | Free Estimates';
 $pageDescription = 'Contact JBL Roofing LLC for a free roofing estimate in Fort Smith, AR. Call us, fill out our form, or visit our office. Licensed, insured, 24/7 emergency response available.';
 $canonicalUrl    = $siteUrl . '/contact/';
 $ogType          = 'website';
-$ogImage         = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/logo/1785370857501-nxseph-Logo.png';
+
+$imgBase = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/photos/';
+$heroImage = $imgBase . '1785371119407-ivl8mo-IMG_3492.jpeg';
+$ogImage = $heroImage;
+$heroImagePreload = $heroImage;
 
 /* Breadcrumb Schema */
 $breadcrumbs = generateBreadcrumbSchema([
@@ -43,13 +47,21 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
    CONTACT PAGE — Two-column layout with Google Maps embed
    ========================================================================= */
 .contact-hero {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  background-size: cover;
+  background-position: center;
   min-height: 40vh;
   display: flex;
   align-items: center;
   padding: calc(var(--space-16) + var(--nav-height, 80px)) var(--space-8) var(--space-12);
   position: relative;
   overflow: hidden;
+}
+.contact-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(var(--color-primary-rgb), 0.92) 0%, rgba(var(--color-secondary-rgb), 0.75) 100%);
+  z-index: 1;
 }
 .contact-hero::after {
   content: "";
@@ -58,9 +70,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
   opacity: 0.06;
   mix-blend-mode: overlay;
+  z-index: 2;
   pointer-events: none;
 }
-.contact-hero .container { position: relative; z-index: 1; text-align: center; }
+.contact-hero .container { position: relative; z-index: 3; text-align: center; }
 .contact-hero h1 {
   color: var(--color-white);
   font-size: var(--font-size-5xl);
@@ -256,7 +269,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 </nav>
 
 <!-- Hero -->
-<section class="contact-hero" aria-label="Contact JBL Roofing">
+<section class="contact-hero" style="background-image: url('<?php echo htmlspecialchars($heroImage); ?>');" aria-label="Contact JBL Roofing">
   <div class="container">
     <h1>Get Your <span class="text-accent">Free Roofing Estimate</span> Today</h1>
     <p class="hero-subtitle">Reach out to JBL Roofing LLC for a no-obligation inspection and quote. We're ready to answer your questions and help you protect your Fort Smith home.</p>

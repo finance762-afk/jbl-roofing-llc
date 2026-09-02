@@ -12,7 +12,11 @@ $pageTitle       = 'About JBL Roofing LLC | Locally Focused Roofers in Fort Smit
 $pageDescription = 'JBL Roofing LLC brings 20+ years of combined roofing experience to Fort Smith, AR. Meet the local team putting homeowners first with honest work, fair pricing, and quality craftsmanship.';
 $canonicalUrl    = $siteUrl . '/about/';
 $ogType          = 'website';
-$ogImage         = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/photos/1785371124660-vir8wt-IMG_4572.jpeg';
+
+$imgBase = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/photos/';
+$heroImage = $imgBase . '1785371124660-vir8wt-IMG_4572.jpeg';
+$ogImage = $heroImage;
+$heroImagePreload = $heroImage;
 
 /* Breadcrumb Schema */
 $breadcrumbs = generateBreadcrumbSchema([
@@ -44,13 +48,21 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
    ABOUT PAGE — Premium asymmetric composition
    ========================================================================= */
 .about-hero {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  background-size: cover;
+  background-position: center;
   min-height: 50vh;
   display: flex;
   align-items: center;
   padding: calc(var(--space-16) + var(--nav-height, 80px)) var(--space-8) var(--space-16);
   position: relative;
   overflow: hidden;
+}
+.about-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(var(--color-primary-rgb), 0.92) 0%, rgba(var(--color-secondary-rgb), 0.75) 100%);
+  z-index: 1;
 }
 .about-hero::after {
   content: "";
@@ -60,8 +72,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   opacity: 0.06;
   mix-blend-mode: overlay;
   pointer-events: none;
+  z-index: 2;
 }
-.about-hero .container { position: relative; z-index: 1; text-align: center; }
+.about-hero .container { position: relative; z-index: 3; text-align: center; }
 .about-hero h1 {
   color: var(--color-white);
   font-size: var(--font-size-5xl);
@@ -218,7 +231,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 </nav>
 
 <!-- Hero -->
-<section class="about-hero" aria-label="About JBL Roofing LLC">
+<section class="about-hero" style="background-image: url('<?php echo htmlspecialchars($heroImage); ?>');" aria-label="About JBL Roofing LLC">
   <div class="container">
     <h1>Locally Focused Roofers Who Put <span class="text-accent">Homeowners First</span></h1>
     <p class="hero-subtitle">JBL Roofing LLC is a licensed, insured roofing contractor serving Fort Smith, AR and surrounding communities. With 20+ years of combined experience, we bring honest work, fair pricing, and genuine customer care to every roof we touch.</p>

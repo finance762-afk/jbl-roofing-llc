@@ -432,6 +432,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   </div>
 </section>
 
+<!-- Mid-page CTA banner -->
+<section class="cta-banner" aria-label="Free siding estimate">
+  <div class="container">
+    <h2 class="reveal-up">Ready to seal your home the right way?</h2>
+    <p class="reveal-up reveal-delay-1">From a small repair to complete siding replacement, JBL Roofing LLC gives Fort Smith homeowners honest assessments and weather-tight installs. Get a free inspection and see exactly what your siding needs.</p>
+    <a href="/contact/" class="btn btn-outline-white btn-lg reveal-up reveal-delay-2">Get My Free Estimate</a>
+  </div>
+</section>
+
 <!-- =====================================================================
      7. FAQ
      ===================================================================== -->

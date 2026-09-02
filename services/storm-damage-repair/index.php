@@ -273,6 +273,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   </div>
 </section>
 
+<!-- Wave divider -->
+<div class="section-divider section-divider--wave" aria-hidden="true">
+  <svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,32 C240,64 480,0 720,16 C960,32 1200,64 1440,24 L1440,60 L0,60 Z"></path></svg>
+</div>
+
 <!-- Emergency banner (signature) -->
 <div class="emergency-strip" role="note" aria-label="Emergency response">
   <div class="container">
@@ -375,6 +380,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
              alt="Storm-damaged roof restored by JBL Roofing LLC in Fort Smith, Arkansas" width="540" height="675" loading="lazy">
       </div>
     </div>
+  </div>
+</section>
+
+<!-- Mid-page CTA banner -->
+<section class="cta-banner" aria-label="Emergency storm damage help">
+  <div class="container">
+    <h2 class="reveal-up">Active leak or wind damage right now?</h2>
+    <p class="reveal-up reveal-delay-1">JBL Roofing LLC responds 24/7 to storm damage in Fort Smith — emergency tarping, leak control, and documented damage assessment for your insurance claim. Don't wait on a leak.</p>
+    <a href="/contact/" class="btn btn-outline-white btn-lg reveal-up reveal-delay-2">Request Emergency Help</a>
   </div>
 </section>
 

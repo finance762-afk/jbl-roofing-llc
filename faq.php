@@ -12,7 +12,11 @@ $pageTitle       = 'Roofing FAQ | Answers to Common Fort Smith Roofing Questions
 $pageDescription = 'Get answers to common roofing questions from JBL Roofing LLC. Learn about costs, timelines, materials, insurance claims, financing, and more from Fort Smith\'s trusted roofers.';
 $canonicalUrl    = $siteUrl . '/faq/';
 $ogType          = 'website';
-$ogImage         = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/logo/1785370857501-nxseph-Logo.png';
+
+$imgBase = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/jbl-roofing-llc/photos/';
+$heroImage = $imgBase . '1785371128999-7fb5tb-IMG_4591.jpeg';
+$ogImage = $heroImage;
+$heroImagePreload = $heroImage;
 
 /* FAQ data — organized by category */
 $faqCategories = [
@@ -69,13 +73,21 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
    FAQ PAGE — Accordion-style layout by category
    ========================================================================= */
 .faq-hero {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  background-size: cover;
+  background-position: center;
   min-height: 40vh;
   display: flex;
   align-items: center;
   padding: calc(var(--space-16) + var(--nav-height, 80px)) var(--space-8) var(--space-12);
   position: relative;
   overflow: hidden;
+}
+.faq-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(var(--color-primary-rgb), 0.92) 0%, rgba(var(--color-secondary-rgb), 0.75) 100%);
+  z-index: 1;
 }
 .faq-hero::after {
   content: "";
@@ -85,8 +97,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   opacity: 0.06;
   mix-blend-mode: overlay;
   pointer-events: none;
+  z-index: 2;
 }
-.faq-hero .container { position: relative; z-index: 1; text-align: center; }
+.faq-hero .container { position: relative; z-index: 3; text-align: center; }
 .faq-hero h1 {
   color: var(--color-white);
   font-size: var(--font-size-5xl);
@@ -185,7 +198,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 </nav>
 
 <!-- Hero -->
-<section class="faq-hero" aria-label="Frequently asked roofing questions">
+<section class="faq-hero" style="background-image: url('<?php echo htmlspecialchars($heroImage); ?>');" aria-label="Frequently asked roofing questions">
   <div class="container">
     <h1>Roofing <span class="text-accent">Questions, Answered</span></h1>
     <p class="hero-subtitle">Get straight answers from JBL Roofing LLC on costs, timelines, materials, insurance, and everything else you need to know about roofing in Fort Smith, AR.</p>
