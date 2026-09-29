@@ -95,9 +95,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <?php if (!empty($phone)): ?>Phone: <a href="tel:<?php echo htmlspecialchars($phone); ?>"><?php echo htmlspecialchars(formatPhone($phone)); ?></a><?php endif; ?>
   </p>
 
-  <div class="legal-disclaimer">
-    This Cookie Policy is provided as a general template. We recommend reviewing this document with a licensed attorney before publication.
-  </div>
 
 </article>
 

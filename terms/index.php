@@ -142,9 +142,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     Address: <?php echo htmlspecialchars($address['street']); ?>, <?php echo htmlspecialchars($address['city']); ?>, <?php echo htmlspecialchars($address['state']); ?> <?php echo htmlspecialchars($address['zip']); ?>
   </p>
 
-  <div class="legal-disclaimer">
-    This Terms of Service document is provided as a general template. We recommend reviewing this document with a licensed <?php echo htmlspecialchars($companyState); ?> attorney before publication.
-  </div>
 
 </article>
 
